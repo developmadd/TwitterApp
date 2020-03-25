@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorGrayLight"
-    tools:context=".ui.Fragments.UserProfile.UserProfileActivity">
+    tools:context=".ui.UserProfile.UserProfileActivity">
 
     <ImageView
         android:id="@+id/imageViewBack"

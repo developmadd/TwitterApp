@@ -20,11 +20,4 @@ public class Utilities {
                 .into(imageView);
     }
 
-    public static void openFragment(FragmentManager fragmentManager, Fragment fragment){
-        /*fragmentManager.beginTransaction()
-                .add(R.id.CTNR_Main,fragment)
-                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-                .addToBackStack(null)
-                .commit();*/
-    }
 }

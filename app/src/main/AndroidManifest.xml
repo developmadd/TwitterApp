@@ -13,9 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.Fragments.TweetRegister.TweetRegisterActivity"></activity>
-        <activity android:name=".ui.Fragments.TweetDetail.TweetDetailActivity" />
-        <activity android:name=".ui.Fragments.UserProfile.UserProfileActivity">
+        <activity android:name=".ui.TweetSearch.TweetSearchActivity"></activity>
+        <activity android:name=".ui.TweetRegister.TweetRegisterActivity" />
+        <activity android:name=".ui.TweetDetail.TweetDetailActivity" />
+        <activity android:name=".ui.UserProfile.UserProfileActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

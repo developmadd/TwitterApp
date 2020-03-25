@@ -14,7 +14,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class APIModule {
 
 
-
     @Provides
     public OkHttpClient provideHttpClient(Context context){
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
@@ -38,8 +37,8 @@ public class APIModule {
     }
 
     @Provides
-    API provideAPI(Context context){
-        return provideRetrofit(API.BASE_URL,provideHttpClient(context)).create(API.class);
+    TwitterAPI provideTwitterAPI(Context context){
+        return provideRetrofit(TwitterAPI.BASE_URL,provideHttpClient(context)).create(TwitterAPI.class);
     }
 
 
