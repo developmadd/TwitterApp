@@ -6,7 +6,7 @@
     android:background="@color/colorGrayLight"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UI.Fragments.TweetSearch.TweetSearchFragment">
+    tools:context=".ui.Fragments.TweetSearch.TweetSearchFragment">
 
 
     <androidx.recyclerview.widget.RecyclerView
